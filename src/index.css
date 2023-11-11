@@ -14,7 +14,7 @@
 }
 
 .gradient-bg{
-  background: linear-gradient(180deg, rgba(43, 109, 97, 1) 0%, rgba(40, 87, 78, 0.39) 100%);
+  background: linear-gradient(180deg, rgba(43, 109, 97, 0.81) 9%, rgba(255, 255, 255, 1) 95%);;
 }
 
 .button-bg-green{
