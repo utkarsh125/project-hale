@@ -1,15 +1,10 @@
 import testLogo from "./testLogo.svg";
-// import logo from "./logo.svg";
-import logo from "./react.svg"
-import close from "./close.svg";
-import menu from "./menu.svg";
 import twitterlogo from "./twitter.svg"
 import linkedinlogo from "./linkedin.svg"
+import logo from './logo.png';
 
-export {
-    testLogo,
+export{
     logo,
-    close,
-    menu,
-
+    twitterlogo,
+    linkedinlogo
 };
