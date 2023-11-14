@@ -20,5 +20,6 @@
 }
 
 .hale__header-section p{
-    font-size: 16px;
+    font-size: 18px;
+    font-family: var(--font-family);
 }
