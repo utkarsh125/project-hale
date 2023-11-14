@@ -10,7 +10,9 @@ const Footer = () => {
                     <span>1429 Somethin Bridge, LA 4281</span>
                     <span>Call: (321) 428 321 3902</span>
                     <div>
-                        
+                        <span>Twitter</span>
+                        <span>Linkedin</span>
+                        <span>facebook</span>
                     </div>
                 </div>
                 <div id="explore" className="flex flex-col">
