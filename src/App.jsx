@@ -3,15 +3,11 @@ import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 
 const App = () => (
-
-  <div className=''>
-    <div className=''>
-      <div>
-        <Navbar />
-        <Footer/>
-      </div>
-    </div>
+  <div className='bg-blue-500'>
+      <Navbar />
+      <Footer/>
   </div>
+
 )
 
 
