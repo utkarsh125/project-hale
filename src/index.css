@@ -15,8 +15,12 @@
 
 }
 
+.font_heading-main{
+  font-family: 'Domine', serif;
+}
+
 .gradient-bg{
-  background: linear-gradient(180deg, rgba(43, 109, 97, 0.81) 9%, rgba(255, 255, 255, 1) 95%);;
+  background: linear-gradient(180deg, rgba(43, 109, 97, 0.81) 9%, rgba(255, 255, 255, 1) 95%);
 }
 
 .button-bg-green{
