@@ -23,3 +23,47 @@
     font-size: 18px;
     font-family: var(--font-family);
 }
+
+.hale__header-section__input{
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.hale__header-section__input input{
+    flex: 2;
+    width: 100%;
+    min-height: 30px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 22px;
+    background: rgba(163, 161, 161, 0.6);
+    opacity: .7;
+    border: 2px aliceblue solid;
+    padding: 0 1rem;
+    outline: none;
+    color: aliceblue;
+    border-radius: 20rem;
+}
+
+.hale__header-section__input button{
+    min-height: 30px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--color-bg);
+    background-color: aliceblue;
+    border: 2px;
+    outline: none;
+    border-radius: 20rem;
+
+
+}
+
+.hale__header-image img{
+    width: 1050px;
+    height: 640px;
+    display: flex;
+}

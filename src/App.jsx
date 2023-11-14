@@ -4,8 +4,9 @@ import Header from './components/Header/Header'
 import Footer from './components/footer/Footer'
 
 const App = () => (
-  <div className='bg-blue-500'>
+  <div className=''>
       <Navbar />
+      <Header />
       <Footer/>
   </div>
 )
