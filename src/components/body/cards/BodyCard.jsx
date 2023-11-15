@@ -15,7 +15,7 @@ const BodyCard = () => {
       <div className="mt-[2rem] flex flex-center justify-center">
         <button
           type="button"
-          className="text-slate-100 text-xl justify-center p-4 bg-[#28574E] rounded-full flex flex-center shadow-2xl"
+          className="text-slate-100 text-xl justify-center p-4 bg-[#28574E] rounded-full flex flex-center"
         >
           Get Started
         </button>
