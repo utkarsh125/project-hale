@@ -1,3 +1,9 @@
 .hale__body{
     font-family: var(--font-family);
 }
+
+
+.hale__body-container h1{
+    font-family: var(--font-family-headings);
+    color: var(--color-green-heading);
+}
