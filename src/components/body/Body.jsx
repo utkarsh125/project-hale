@@ -24,10 +24,10 @@ const Body = () => {
         <div className="p-6 m-4">
           <BodyCard />
         </div>
-        <div className="p-6">
+        <div className="p-6 m-4">
           <BodyCard />
         </div>
-        <div className="p-6">
+        <div className="p-6 m-4">
           <BodyCard />
         </div>
       </div>
