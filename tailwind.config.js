@@ -6,7 +6,12 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'outfit': ['Outfit', 'sans-serif'],
+        'domine': ['Domine', 'serif']
+      }
+    },
   },
   plugins: [],
 }
