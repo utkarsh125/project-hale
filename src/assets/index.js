@@ -12,6 +12,11 @@ import rare from './rare.png';
 import rheum from './rheumatology.png';
 import surrogacy from './surrogacy.png';
 import endoc from './endocrinology.png';
+import cardio from './heart.png'
+import doc1 from './doc1.png';
+import doc2 from './doc2.png';
+import doc3 from './doc3.png';
+import doc4 from './doc4.png';
 
 
 export{
@@ -29,4 +34,9 @@ export{
     rheum,
     surrogacy,
     endoc,
+    cardio,
+    doc1,
+    doc2,
+    doc3,
+    doc4
 };

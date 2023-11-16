@@ -9,16 +9,41 @@ import {
   surrogacy,
   infertility,
   endoc,
+  cardio,
 } from "../../../assets";
 
 const Row1 = () => {
   return (
-    <div className="ml-[6rem] mr-[6rem] rounded-lg bg-gray-200 font-bold font-outfit flex justify-center p-5">
-      <div className="ml-[1.5rem] mr-[1.5rem] justify-center flex flex-row">
-        <div className="flex justify-center flex-col">
-          <img className="ml-[10px]" src={oncology} alt="" />
-          <h5 className="pt-[1rem]">Oncology</h5>
+    <div className="mx-auto font-bold font-outfit flex justify-center p-5">
+      <div className="mx-auto justify-center w-full flex flex-row">
+        <div className="flex bg-gray-200 mx-3 p-5 rounded-lg justify-center items-center flex-col">
+          <img className="w-[60px] h-[60px]" src={oncology} alt="" />
+          <h5 className="pt-2">Oncology</h5>
         </div>
+
+        <div className="flex bg-gray-200 mx-3 p-5 rounded-lg justify-center items-center flex-col">
+          <img className="w-[60px] h-[60px]" src={endoc} alt="" />
+          <h5 className="pt-2">Endocrinology</h5>
+        </div>
+
+        <div className="flex bg-gray-200 mx-3 p-5 rounded-lg justify-center items-center flex-col">
+          <img className="w-[60px] h-[60px]" src={infertility} alt="" />
+          <h5 className="pt-2">Infertility</h5>
+        </div>
+
+        <div className="flex bg-gray-200 mx-3 p-5 rounded-lg justify-center items-center flex-col">
+          <img className="w-[60px] h-[60px]" src={mental} alt="" />
+          <h5 className="pt-2">Mental Health</h5>
+        </div>
+
+        <div className="flex bg-gray-200 mx-3 p-5 rounded-lg justify-center items-center flex-col">
+          <img className="w-[60px] h-[60px]" src={cardio} alt="" />
+          <h5 className="pt-2">Cardiology</h5>
+        </div>
+
+
+
+        
       </div>
       <div></div>
     </div>
