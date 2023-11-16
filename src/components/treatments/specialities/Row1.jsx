@@ -14,38 +14,59 @@ import {
 
 const Row1 = () => {
   return (
-    <div className="mx-auto font-bold font-outfit flex justify-center p-5">
-      <div className="mx-auto justify-center w-full flex flex-row">
-        <div className="flex bg-gray-200 mx-3 p-5 rounded-lg justify-center items-center flex-col">
-          <img className="w-[60px] h-[60px]" src={oncology} alt="" />
-          <h5 className="pt-2">Oncology</h5>
+    <div>
+      <div className="flex flex-row justify-center">
+
+        {/* Oncology */}
+        <div className="flex mx-3 my-3 bg-gray-200 rounded-[20px] w-[220px] h-[218px] items-center justify-center">
+          <div className="flex flex-col">
+            <div className="mx-auto">
+              <img src={oncology} alt="" className="w-[60px] h-[60px]"/>
+            </div>
+            <p className="text-xl font-outfit font-bold">Oncology</p>
+          </div>
         </div>
 
-        <div className="flex bg-gray-200 mx-3 p-5 rounded-lg justify-center items-center flex-col">
-          <img className="w-[60px] h-[60px]" src={endoc} alt="" />
-          <h5 className="pt-2">Endocrinology</h5>
+        {/* Endocrinology */}
+        <div className="flex mx-3 my-3 bg-gray-200 rounded-[20px] w-[220px] h-[218px] items-center justify-center">
+          <div className="flex flex-col">
+            <div className="mx-auto">
+              <img src={endoc} alt="" className="w-[60px] h-[60px]"/>
+            </div>
+            <p className="font-outfit font-bold">Endocrinology</p>
+          </div>
         </div>
 
-        <div className="flex bg-gray-200 mx-3 p-5 rounded-lg justify-center items-center flex-col">
-          <img className="w-[60px] h-[60px]" src={infertility} alt="" />
-          <h5 className="pt-2">Infertility</h5>
+        {/* Infertility */}
+        <div className="flex mx-3 my-3 bg-gray-200 rounded-[20px] w-[220px] h-[218px] items-center justify-center">
+          <div className="flex flex-col">
+            <div className="mx-auto">
+              <img src={infertility} alt="" className="w-[60px] h-[60px]"/>
+            </div>
+            <p className="font-outfit font-bold">Infertility</p>
+          </div>
         </div>
 
-        <div className="flex bg-gray-200 mx-3 p-5 rounded-lg justify-center items-center flex-col">
-          <img className="w-[60px] h-[60px]" src={mental} alt="" />
-          <h5 className="pt-2">Mental Health</h5>
+        {/* Mental Health */}
+        <div className="flex mx-3 my-3 bg-gray-200 rounded-[20px] w-[220px] h-[218px] items-center justify-center">
+          <div className="flex flex-col">
+            <div className="mx-auto">
+              <img src={mental} alt="" className="w-[60px] h-[60px]"/>
+            </div>
+            <p className="font-outfit font-bold">Mental Health</p>
+          </div>
         </div>
 
-        <div className="flex bg-gray-200 mx-3 p-5 rounded-lg justify-center items-center flex-col">
-          <img className="w-[60px] h-[60px]" src={cardio} alt="" />
-          <h5 className="pt-2">Cardiology</h5>
+        {/* Cardiology */}
+        <div className="flex mx-3 my-3 bg-gray-200 rounded-[20px] w-[220px] h-[218px] items-center justify-center">
+          <div className="flex flex-col">
+            <div className="mx-auto">
+              <img src={cardio} alt="" className="w-[60px] h-[60px]"/>
+            </div>
+            <p className="font-outfit font-bold">Cardiology</p>
+          </div>
         </div>
-
-
-
-        
       </div>
-      <div></div>
     </div>
   );
 };
