@@ -1,12 +1,7 @@
 import React from "react";
 import {
   oncology,
-  heart,
-  rheum,
   mental,
-  plastic,
-  rare,
-  surrogacy,
   infertility,
   endoc,
   cardio,

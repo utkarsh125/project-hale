@@ -1,15 +1,10 @@
 import React from "react";
 import {
-  oncology,
-  heart,
   rheum,
-  mental,
   plastic,
   rare,
   surrogacy,
-  infertility,
-  endoc,
-  cardio,
+  neurology,
 } from "../../../assets";
 
 const Row2 = () => {
@@ -21,9 +16,9 @@ const Row2 = () => {
         <div className="flex mx-3 my-3 bg-gray-200 rounded-[20px] w-[220px] h-[218px] items-center justify-center">
           <div className="flex flex-col">
             <div className="mx-auto">
-              <img src={oncology} alt="" className="w-[60px] h-[60px]"/>
+              <img src={neurology} alt="" className="w-[60px] h-[60px]"/>
             </div>
-            <p className="text-xl font-outfit font-bold">Oncology</p>
+            <p className="text-xl font-outfit font-bold">Neurology</p>
           </div>
         </div>
 
@@ -31,9 +26,9 @@ const Row2 = () => {
         <div className="flex mx-3 my-3 bg-gray-200 rounded-[20px] w-[220px] h-[218px] items-center justify-center">
           <div className="flex flex-col">
             <div className="mx-auto">
-              <img src={endoc} alt="" className="w-[60px] h-[60px]"/>
+              <img src={rheum} alt="" className="w-[60px] h-[60px]"/>
             </div>
-            <p className="font-outfit font-bold">Endocrinology</p>
+            <p className="font-outfit font-bold">Rheumatology</p>
           </div>
         </div>
 
@@ -41,9 +36,9 @@ const Row2 = () => {
         <div className="flex mx-3 my-3 bg-gray-200 rounded-[20px] w-[220px] h-[218px] items-center justify-center">
           <div className="flex flex-col">
             <div className="mx-auto">
-              <img src={infertility} alt="" className="w-[60px] h-[60px]"/>
+              <img src={plastic} alt="" className="w-[60px] h-[60px]"/>
             </div>
-            <p className="font-outfit font-bold">Infertility</p>
+            <p className="font-outfit font-bold">Plastic Surgery</p>
           </div>
         </div>
 
@@ -51,9 +46,9 @@ const Row2 = () => {
         <div className="flex mx-3 my-3 bg-gray-200 rounded-[20px] w-[220px] h-[218px] items-center justify-center">
           <div className="flex flex-col">
             <div className="mx-auto">
-              <img src={mental} alt="" className="w-[60px] h-[60px]"/>
+              <img src={rare} alt="" className="w-[60px] h-[60px]"/>
             </div>
-            <p className="font-outfit font-bold">Mental Health</p>
+            <p className="font-outfit font-bold">Rare Diseases</p>
           </div>
         </div>
 
@@ -61,9 +56,9 @@ const Row2 = () => {
         <div className="flex mx-3 my-3 bg-gray-200 rounded-[20px] w-[220px] h-[218px] items-center justify-center">
           <div className="flex flex-col">
             <div className="mx-auto">
-              <img src={cardio} alt="" className="w-[60px] h-[60px]"/>
+              <img src={surrogacy} alt="" className="w-[60px] h-[60px]"/>
             </div>
-            <p className="font-outfit font-bold">Cardiology</p>
+            <p className="font-outfit font-bold">Surrogacy</p>
           </div>
         </div>
       </div>
