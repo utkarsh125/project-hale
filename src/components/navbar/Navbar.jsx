@@ -37,11 +37,11 @@ const Navbar = () => {
       {toggleMenu && (
         <div className='hale__navbar-menu_container scale-up-center'>
           <div className='hale__navbar-menu_container-links'>
-            <p><a href="#home">Second Opinion</a></p>
-            <p><a href="#home">Medical Travel</a></p>
-            <p><a href="#home">Clinical Trials</a></p>
-            <p><a href="#home">Membership Goal</a></p>
-            <p><a href="#home">Testimonials</a></p>
+            <p className='pt-2'><a href="#home">Second Opinion</a></p>
+            <p className='pt-2'><a href="#home">Medical Travel</a></p>
+            <p className='pt-2'><a href="#home">Clinical Trials</a></p>
+            <p className='pt-2'><a href="#home">Membership Goal</a></p>
+            <p className='pt-2'><a href="#home">Testimonials</a></p>
           </div>
           <div className="hale__navbar-menu_container-links-sign">
             <p>Sign in</p>

@@ -1,12 +1,13 @@
 // import { logo } from "../../assets/index"
 
+const listitem = "text-md py-1"
 const Footer = () => {
     return (
         <div className="bg-teal-900 text-white bottom-0 font-outfit">
             <div className="mx-auto w-5/6 flex flex-col justify-between p-5">
                 <div id="contact" className="flex flex-row my-3 p-3 justify-between">
                     <h1 className="text-4xl">Omnicure</h1>
-                    <div className="flex justify-evenly">
+                    <div className="w-1/4 flex justify-evenly">
                         <span>Twitter</span>
                         <span>Linkedin</span>
                         <span>facebook</span>
@@ -24,14 +25,14 @@ const Footer = () => {
                     <div id="links" className="w-1/6 flex flex-col">
                         <h3 className="pb-2 my-3 text-2xl">Links</h3>
                         <ul>
-                            <li>Home</li>
-                            <li>Second Opinion</li>
-                            <li>Treatment in USA</li>
-                            <li>Clinical Trial</li>
-                            <li>About Us</li>
-                            <li>Blog</li>
-                            <li>Contact Us</li>
-                            <li>Medical Intake Form</li>
+                            <li className={listitem}>Home</li>
+                            <li className={listitem}>Second Opinion</li>
+                            <li className={listitem}>Treatment in USA</li>
+                            <li className={listitem}>Clinical Trial</li>
+                            <li className={listitem}>About Us</li>
+                            <li className={listitem}>Blog</li>
+                            <li className={listitem}>Contact Us</li>
+                            <li className={listitem}>Medical Intake Form</li>
                         </ul>
                     </div>
                     <div id="contact info" className="w-1/4 flex flex-col mx-4">

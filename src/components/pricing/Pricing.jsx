@@ -1,4 +1,3 @@
-import React from "react";
 import GlobalLite from "./priceCards/GlobalLite";
 import GlobalFamily from "./priceCards/GlobalFamily";
 
