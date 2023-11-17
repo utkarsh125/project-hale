@@ -6,6 +6,8 @@ import Footer from './components/footer/Footer'
 import Body from './components/body/Body'
 import Pricing from './components/pricing/Pricing'
 import Treatments from './components/treatments/Treatments'
+import Doctors from './components/Doctors/Doctors'
+import Consultation from './components/Consultation/Consultation'
 
 const App = () => (
   <div className=''>
@@ -15,6 +17,8 @@ const App = () => (
       {/* <CTA /> */}
       <Pricing />
       <Treatments />
+      <Doctors />
+      <Consultation />
       <Footer/>
   </div>
 )
