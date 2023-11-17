@@ -1,16 +1,15 @@
-import React from "react";
 import "./body.css";
 import BodyCard from "./cards/BodyCard";
 
 const Body = () => {
   return (
-    <div className="hale__body flex flex-row m-10 pt-[8rem]">
+    <div className="hale__body flex flex-col lg:flex-row my-8 pt-24">
       <div>
-      <div className="hale__body-container flex flex-row ml-[8rem] mr-[8rem]">
-        <h1 className="flex text-5xl p-6 m-4 font-bold w-[50%]">
+      <div className="hale__body-container w-5/6 flex flex-col lg:flex-row mx-auto lg:mx-32">
+        <h1 className="flex text-5xl py-4 mx-auto font-bold w-2/3">
           Experience Exceptional <br className="sm:block hidden"/> HealthCare In India <br className="sm:block hidden"/> With Hale
         </h1>
-        <p className="flex text-normal p-6 w-[50%] text-[#757575]">
+        <p className="flex mx-auto text-xl lg:text-lg lg:text-normal py-3 w-2/3 text-[#757575]">
           Discover the pinnacle of healthcare services in India,
           where advancements, quality, cutting edge research, expert doctors and
           a commitment to patient success, combine to provide an unparalleled
@@ -20,7 +19,7 @@ const Body = () => {
         </p>
       </div>
 
-      <div className="flex flex-row m-10 pt-[8rem] justify-center">
+      <div className="flex flex-col lg:flex-row my-5 pt-32 justify-center">
         <div className="p-6 m-4">
           <BodyCard />
         </div>

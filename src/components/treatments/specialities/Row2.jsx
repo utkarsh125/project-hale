@@ -1,4 +1,3 @@
-import React from "react";
 import {
   rheum,
   plastic,
@@ -10,7 +9,7 @@ import {
 const Row2 = () => {
   return (
     <div>
-      <div className="flex flex-row justify-center">
+      <div className="flex flex-col lg:flex-row justify-center">
 
         {/* Oncology */}
         <div className="flex mx-3 my-3 bg-gray-200 rounded-[20px] w-[220px] h-[218px] items-center justify-center">

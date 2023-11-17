@@ -34,7 +34,6 @@
 .hale__header-section__input input{
     flex: 2;
     width: 100%;
-    min-height: 30px;
     font-family: var(--font-family);
     font-size: 20px;
     line-height: 22px;
