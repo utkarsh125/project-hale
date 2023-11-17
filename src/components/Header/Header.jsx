@@ -16,10 +16,10 @@ const Header = () => {
             <button type='button' className='overflow-hidden w-1/4 px-2 md:text-xl md:py-3 md:px-4 ml-4 justify-center shadow-2xl'>Explore Premium Care</button>
           </div>
 
-          <div className='hidden lg:w-[1050px] lg:h-[640pz] lg:flex '>
+          <div className='hidden relative lg:w-[1050px] lg:h-[640px] lg:flex '>
             <img src={doctor} alt="" className='mt-8 pt-10 z-[1]'/>
             {/* Overlapping image */}
-            {/* <img src={patient} alt="" className='z-[0] absolute'/> */}
+            <img src={patient} alt="" className='w-1/5 rounded-lg right-36 top-28 z-[2] absolute'/>
           </div>
         </div>        
     </div>
