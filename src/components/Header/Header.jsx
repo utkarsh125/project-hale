@@ -15,10 +15,10 @@ const Header = () => {
             <button type='button' className='overflow-hidden w-1/4 px-2 font-normal sm:px-2 sm:py-2 md:py-3 md:px-4 ml-4 justify-center shadow-2xl rounded-full flex bg-[#FFFFFF] text-dark-bg-green sm:my-2.5 sm:w-[60%]'>Explore Premium Care</button>
           </div>
 
-          <div className='flex flex-row sm:block mx-auto sm:mx-5 md:mx-3 justify-center items-center'>
-            <img src={doctor} alt="" className='mb-20 pt-10 z-[1] w-full'/>
+          <div className='hidden lg:w-[1050px] lg:h-[640pz] lg:flex '>
+            <img src={doctor} alt="" className='mt-8 pt-10 z-[1]'/>
             {/* Overlapping image */}
-            {/* <img src={patient} alt="" className='z-[0] absolute'/> */}
+            <img src={patient} alt="" className='w-1/5 rounded-lg right-36 top-28 z-[2] absolute'/>
           </div>
         </div>        
     </div>
