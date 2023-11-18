@@ -1,4 +1,4 @@
-#HALE - A Healthcare Website
+# HALE - A Healthcare Website
 
 Presenting Hale, a remote solution for the modern world. Need a doctor but cannot find one nearby for your low-risk diseases? 
 
