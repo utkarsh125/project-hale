@@ -8,10 +8,10 @@ const Navbar = () => {
   const [toggleMenu,setToggleMenu] = useState(false);
 
   return (
-    <div className='hale__navbar'>
+    <div className='hale__navbar mx-auto'>
       <div className='hale__navbar-links'>
         <div className='hale__navbar-links_logo'>
-          <img src={logo} />
+          <img className='' src={logo} />
         </div>
 
         <div className='hale__navbar-links_container'>

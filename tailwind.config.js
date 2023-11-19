@@ -16,6 +16,10 @@ export default {
         md: '768px',
         lg: '976px',
         xl: '1440px',
+      },
+
+      colors:{
+        'dark-bg-green': '#20433D',
       }
     },
   },
