@@ -45,7 +45,7 @@ const Navbar = () => {
           </div>
           <div className="hale__navbar-menu_container-links-sign">
             <p>Sign in</p>
-            <button type="button">Sign up</button>
+            <button type="button" className='rounded-[15px]'>Sign up</button>
           </div>
         </div>
       )}

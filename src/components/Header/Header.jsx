@@ -2,7 +2,7 @@ import { search, doctor, patient } from '../../assets'
 
 const Header = () => {
   return (
-    <div className='flex sm:flex-col flex-row justify-center items-center bg-dark-bg-green'>
+    <div className='flex flex-col lg:flex-row justify-center items-center bg-dark-bg-green'>
         <div>
           <div className='flex flex-col justify-center items-center mx-auto'>
             <h1 className='text-5xl text-center font-domine text-[#FFFFFF] font-semibold'>World's Best Advanced <br className='sm:block hidden'/> Cross-Border Care</h1>
@@ -16,7 +16,7 @@ const Header = () => {
           </div>
 
           <div className='flex flex-row sm:block mx-auto sm:mx-5 md:mx-3 justify-center items-center'>
-            <img src={doctor} alt="" className='mb-20 pt-10 z-[1]'/>
+            <img src={doctor} alt="" className='mb-20 pt-10 z-[1] w-full'/>
             {/* Overlapping image */}
             {/* <img src={patient} alt="" className='z-[0] absolute'/> */}
           </div>
