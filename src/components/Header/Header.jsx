@@ -18,7 +18,7 @@ const Header = () => {
           <div className='hidden lg:w-[1050px] lg:h-[640pz] lg:flex '>
             <img src={doctor} alt="" className='mt-8 pt-10 z-[1]'/>
             {/* Overlapping image */}
-            <img src={patient} alt="" className='w-1/5 rounded-lg right-36 top-28 z-[2] absolute'/>
+            <img src={patient} alt="" className='w-1/4 right-2 top-12 rounded-lg md:right-10 md:top-16 z-[2] absolute'/>
           </div>
         </div>        
     </div>
