@@ -17,6 +17,7 @@ import doc1 from './doc1.png';
 import doc2 from './doc2.png';
 import doc3 from './doc3.png';
 import doc4 from './doc4.png';
+import formdoc from './formdoc.png';
 
 
 export{
@@ -39,4 +40,5 @@ export{
     doc2,
     doc3,
     doc4,
+    formdoc,
 };

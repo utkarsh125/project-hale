@@ -14,9 +14,9 @@ const Pricing = () => {
         </p>
       </div>
 
-      <div className="flex flex-row w-[100%] justify-center mt-[6rem]">
-        <div className="ml-[1.5rem] mr-[1.5rem]"><GlobalLite /></div>
-        <div className="mr-[1.5rem] ml-[1.5rem]"><GlobalFamily /></div>
+      <div className="flex lg:flex-row md:flex-col sm:flex-col w-[100%] justify-center mt-[6rem]">
+        <div className="ml-[1.5rem] mr-[1.5rem] sm:mb-4"><GlobalLite /></div>
+        <div className="mr-[1.5rem] ml-[1.5rem] sm:mt-4"><GlobalFamily /></div>
       </div>
     </section>
   );

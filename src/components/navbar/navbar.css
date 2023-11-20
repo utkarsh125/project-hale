@@ -52,15 +52,15 @@
 .hale__navbar-sign button,
 .hale__navbar-menu_container-links-sign button{
     font-family: var(--font-family);
-    color: #fff;
-    background-color: #000;
+    color: var(--color-bg);
+    background-color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
     margin: 0 1rem;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
